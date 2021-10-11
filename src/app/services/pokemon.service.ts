@@ -7,11 +7,11 @@ import { HttpClient } from '@angular/common/http';
 })
 export class PokemonService {
 
-  baseUrl = environment.baseUrl;
+  pokedex = environment.apiUrl;
 
   constructor(private http: HttpClient) { }
 
   getPokemons(index: number){
-    return this.http.get<any>(`${this.baseUrl}/pokemon/${index}`);
+    return this.http.get<any>(`${this.pokedex}/pokemon/${index}`);
   }
 }
