@@ -1,0 +1,136 @@
+.imgheader{
+    width: 23%;
+    height: 90%;
+    align-items: center;
+  
+}
+
+.imgPokedex{
+    width: 50%;
+    height: 60%;
+
+}
+
+.mat-toolbar{
+   background-color: #5a5761;
+   border: black 2px solid;
+}
+
+
+.icon{
+margin-left: 9%;
+}
+
+@media (min-width: 450px){
+
+    .imgheader{
+        width: 15%;
+        height: 90%;
+        align-items: center;
+      
+    }
+    
+    .imgPokedex{
+        width: 50%;
+        height: 80%;
+    
+    }
+
+    .icon{
+        margin-left: 40%;
+        }
+        
+
+} 
+
+
+@media (min-width: 800px){
+
+    .imgheader{
+        width: 10%;
+        height: 90%;
+        align-items: center;
+      
+    }
+    
+    .imgPokedex{
+        width: 45%;
+        height: 98%;
+    
+    }
+
+    .icon{
+        margin-left: 40%;
+        }
+        
+
+} 
+
+
+@media (min-width: 800px){
+
+    .imgheader{
+        width: 10%;
+        height: 90%;
+        align-items: center;
+      
+    }
+    
+    .imgPokedex{
+        width: 45%;
+        height: 98%;
+    
+    }
+
+    .icon{
+        margin-left: 40%;
+        }
+        
+
+        
+} 
+
+
+@media (min-width: 1200px){
+
+    .imgheader{
+        width: 5%;
+        height: 90%;
+        align-items: center;
+    }
+    
+    .imgPokedex{
+        width: 35%;
+        height: 98%;
+    }
+
+    .icon{
+        margin-left: 60%;
+    }
+        
+        
+} 
+
+
+
+@media (min-width: 2000px){
+
+    .imgheader{
+        width: 3%;
+        height: 90%;
+        align-items: center;
+      
+    }
+    
+    .imgPokedex{
+        width: 25%;
+        height: 98%;
+    
+    }
+
+    .icon{
+        margin-left: 70%;
+    }
+        
+        
+} 

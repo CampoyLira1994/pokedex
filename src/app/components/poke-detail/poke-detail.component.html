@@ -1,0 +1,104 @@
+<mat-card class="card">
+
+    <a [routerLink]="['/home']" [routerLinkActive]="['link-active']" mat-icon-button>
+    <mat-icon aria-hidden="false" aria-label="Example home icon">home</mat-icon>
+</a>
+
+    <mat-card-header class="pokemon">
+        <img mat-card-md-image class="header-image" src="{{pokemonImg}}">
+        <mat-card-title>{{pokemon.name}}</mat-card-title>
+        <mat-card-subtitle>No. {{pokemon.id}}</mat-card-subtitle>
+        <mat-card-subtitle style="color: black;">{{pokemonType}}</mat-card-subtitle>
+
+    </mat-card-header>
+
+  
+
+    <br>
+
+    <mat-card-content>
+        <mat-chip-list>
+
+
+            <mat-chip class="mat-chip" color="primary" selected>Altura: {{pokemon.height}}  m</mat-chip>
+            <mat-chip class="mat-chip" color="primary" selected>Peso: {{pokemon.weight}} kg</mat-chip>
+            <br><br><br><br>
+
+            <div class="container">
+
+                <div id="box1">
+                    <h4>Vida</h4>
+                </div>
+                <div id="box2">
+                    <mat-progress-bar class="mat-progress-bar" mode="determinate" value="{{this.vida}}">
+                    </mat-progress-bar>
+                    <h4>{{this.vida}}</h4>
+                </div>
+            </div>
+
+            <div class="container">
+                <div id="box1">
+                    <h4>Ataque</h4>
+                </div>
+                <div id="box2">
+                    <mat-progress-bar class="mat-progress-bar" mode="determinate" value="{{this.ataque}}">
+                    </mat-progress-bar>
+                    <h4>{{this.ataque}}</h4>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <div id="box1">
+                    <h4>Defensa</h4>
+                </div>
+                <div id="box2">
+                    <mat-progress-bar class="mat-progress-bar" mode="determinate" value="{{this.defensa}}">
+                    </mat-progress-bar>
+                    <h4>{{this.defensa}}</h4>
+                </div>
+            </div>
+
+            <div class="container">
+                <div id="box1">
+                    <h4>Ataque E</h4>
+                </div>
+                <div id="box2">
+                    <mat-progress-bar class="mat-progress-bar" mode="determinate" value="{{this.especialAtaque}}">
+                    </mat-progress-bar>
+                    <h4>{{this.especialAtaque}}</h4>
+                </div>
+            </div>
+
+
+
+            <div class="container">
+                <div id="box1">
+                    <h4>Defensa E </h4>
+                </div>
+                <div id="box2">
+                    <mat-progress-bar class="mat-progress-bar" mode="determinate" value="{{this.especialDefensa}}">
+                    </mat-progress-bar>
+                    <h4>{{this.especialDefensa}}</h4>
+                </div>
+            </div>
+
+            <div class="container">
+                <div id="box1">
+                    <h4>Velocidad</h4>
+                </div>
+                <div id="box2">
+                    <mat-progress-bar class="mat-progress-bar" mode="determinate" value="{{this.velocidad}}">
+                    </mat-progress-bar>
+                    <h4>{{this.velocidad}}</h4>
+                </div>
+            </div>
+
+
+
+        </mat-chip-list>
+
+
+    </mat-card-content>
+
+</mat-card>

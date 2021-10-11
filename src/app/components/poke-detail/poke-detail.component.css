@@ -1,0 +1,116 @@
+.card{
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    background-color:  #c7caca ;
+    border: black 2px solid;
+}
+
+.mat-card-title{
+    width: 40%;
+}
+
+.mat-card-subtitle{
+    width: 60%;
+}
+
+
+.header-image {
+    width: 60%;
+}
+
+.mat-card-header{
+    padding-top: 10%;
+    border-radius: 30%;
+}
+
+.mat-card-title{
+    text-transform: uppercase;
+    color: black;
+    margin-left: 1%;
+}
+
+
+.mat-primary{
+    background-color: black;
+}
+
+
+.mat-chip.mat-standard-chip.mat-chip-selected.mat-primary {
+    background-color: #b93232;
+    color: #fff;
+}
+
+::ng-deep .mat-progress-bar-fill::after {
+    background-color: #b93232;
+}
+
+::ng-deep .mat-progress-bar-buffer {
+    background: #f8d4d7;
+}
+
+
+.mat-chip{
+width: 45%;
+text-align: center;
+}
+
+.mat-progress-bar{
+    width: 60%;
+    height: 10px;
+    border-radius: 90%;
+}
+    
+#box1{
+    width: 30%;
+}
+
+#box2{
+    width: 70%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .h4{
+      text-align: center;
+  }
+  
+
+  .pokemon{
+   background-color: #f88485;
+   border: black 2px solid;
+   margin-top: -5%;
+  }
+
+  @media (min-width: 450px){
+
+
+    .header-image {
+    width: 20%;
+}
+
+    .mat-card-header{
+        padding-top: 5%;
+        border-radius: 20%;
+    }
+
+  }
+
+
+  @media (min-width: 1500px){
+
+
+    .header-image {
+    width: 3%;
+}
+
+    .mat-card-header{
+        padding-top: 5%;
+        border-radius: 20%;
+    }
+
+  }
